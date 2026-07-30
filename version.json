@@ -3,7 +3,7 @@
   "versionName": "1.0.0",
   "releasedAt": "2026-07-31",
   "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.0.0/RubikLab-1.0.0.apk",
-  "sizeBytes": 25049169,
-  "sha256": "21ae6f510562caf887f7abce2eda024f503b5b8903b06aebccc424d37be9ba52",
+  "sizeBytes": 25049070,
+  "sha256": "f68abc4ff7a41d61589de13559d547c104bcf388f25b85d411426a6650fc134a",
   "notes": "Bản đầu tiên: 10 bài học có minh hoạ 3D, giải khối bằng ảnh chụp sáu mặt hoặc nhập màu tay, khối ảo vuốt xoay được, bấm giờ speedcubing và thử thách hằng ngày."
 }
