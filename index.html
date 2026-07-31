@@ -158,7 +158,7 @@ footer .wrap{display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify
 <div class="wrap">
   <section class="hero" style="padding-top:66px">
     <div>
-      <span class="badge" id="ver-badge">Bản 1.3.0 · APK cho Android</span>
+      <span class="badge" id="ver-badge">Bản 1.4.0 · APK cho Android</span>
       <h1>Học, giải và <em>luyện Rubik 3×3</em></h1>
       <p class="lede">
         Mười bài học có minh hoạ 3D, chụp khối thật để nhận lời giải từng nước,
@@ -190,7 +190,9 @@ footer .wrap{display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify
         <h3>Chụp khối thật, nhận lời giải</h3>
         <p>Chụp sáu mặt hoặc tô màu bằng tay. App tự tìm mặt khối trong ảnh nên đọc màu chính xác kể cả khi khối đặt lệch,
            chỉ đích danh ô đọc sai và gợi ý cách sửa, rồi trả lời giải kèm số nước
-           và thời gian dự kiến. Khung ngắm còn tự bám khối và tự bấm chụp giúp bạn.</p>
+           và thời gian dự kiến. Khung ngắm còn tự bám khối và tự bấm chụp giúp bạn.
+           Khối nào dán nhãn ở viên tâm cũng không sao — màu của mặt được suy ra từ
+           tám ô còn lại chứ không phụ thuộc vào ô tâm.</p>
       </div>
       <div class="card">
         <div class="ico">🎮</div>
@@ -204,7 +206,9 @@ footer .wrap{display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify
         <div class="ico">🔥</div>
         <h3>Thử thách mỗi ngày</h3>
         <p>Đề xáo chung cho cả ngày, nhiệm vụ nhỏ, chuỗi ngày liên tiếp và huy hiệu —
-           đủ lý do để quay lại xoay thêm vài lần.</p>
+           đủ lý do để quay lại xoay thêm vài lần. App còn nhìn vào mốc thời gian
+           từng giai đoạn để chỉ ra bước nào đang ngốn nhiều thời gian nhất, và
+           nhắc bạn luyện tập vào giờ bạn chọn.</p>
       </div>
     </div>
   </section>
@@ -236,17 +240,23 @@ footer .wrap{display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify
         <li>Bộ giải theo phương pháp tầng lớp, trung bình khoảng 126 nước</li>
         <li>Chia lời giải theo 7 giai đoạn, xem từng nước hoặc chạy liền một mạch</li>
         <li>Chỉnh tốc độ phát từ 0.5× tới 3×, kéo thanh trượt tới bất kỳ nước nào</li>
+        <li>Đọc lời giải thành tiếng để vừa xoay vừa nghe, không phải nhìn màn hình</li>
         <li>Ước tính thời gian hoàn thành theo ba mức trình độ</li>
+        <li>Lưu lại khối đã nhập và mở ra giải tiếp lúc khác</li>
+        <li>Tự giữ bản nháp, lỡ thoát giữa chừng không phải nhập lại 54 ô</li>
       </ul>
       <ul class="plain">
         <li>Khung ngắm tự bám khối và tự chụp khi bạn giữ yên</li>
         <li>Tự tìm mặt khối trong ảnh, chịu được khối lệch tâm và hơi nghiêng</li>
-        <li>Bỏ qua logo dán giữa ô tâm và đốm sáng phản chiếu khi đọc màu</li>
+        <li>Một ô tâm đọc sai không còn làm hỏng cả khối — màu mặt được suy ra bằng loại trừ</li>
+        <li>Bỏ qua nhãn dán giữa ô tâm và đốm sáng phản chiếu khi đọc màu</li>
         <li>Đánh dấu ô chưa chắc và cho chụp lại riêng một mặt</li>
         <li>Báo lỗi chỉ rõ vị trí viên sai kèm đề xuất sửa</li>
         <li>Khối ảo vuốt xoay được, có gợi ý nước tiếp theo và hoàn tác</li>
         <li>Luyện riêng từng bước với thế do app dựng sẵn</li>
         <li>Tự tách thời gian từng giai đoạn khi giải trên khối ảo</li>
+        <li>Chỉ ra bước đang ngốn nhiều thời gian nhất và mở thẳng bài tập cho bước đó</li>
+        <li>Nhắc luyện tập hằng ngày vào giờ bạn chọn</li>
         <li>Thẻ ghi nhớ công thức, thẻ hay quên hiện lại nhiều hơn</li>
         <li>Sao lưu và khôi phục toàn bộ tiến độ ra tệp</li>
         <li>Đồng bộ nhiều thiết bị qua dự án Supabase của riêng bạn (tuỳ chọn)</li>
@@ -264,8 +274,8 @@ footer .wrap{display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify
     <h2>Cài đặt trong bốn bước</h2>
     <p class="sub">RubikLab đang phát hành dưới dạng APK để chạy thử và beta, chưa lên Google Play.</p>
     <ol class="steps">
-      <li><b>Tải tệp APK</b><span>Bấm nút tải ở đầu trang. Tệp khoảng 24 MB.</span></li>
-      <li><b>Mở tệp vừa tải</b><span>Vào phần Tải xuống của máy rồi chạm vào tệp <code>RubikLab-1.3.0.apk</code>.</span></li>
+      <li><b>Tải tệp APK</b><span>Bấm nút tải ở đầu trang. Tệp khoảng 27 MB.</span></li>
+      <li><b>Mở tệp vừa tải</b><span>Vào phần Tải xuống của máy rồi chạm vào tệp <code>RubikLab-1.4.0.apk</code>.</span></li>
       <li><b>Cho phép cài từ nguồn này</b><span>Android sẽ hỏi một lần. Bật công tắc "Cho phép từ nguồn này" rồi quay lại.</span></li>
       <li><b>Mở app và xoay thôi</b><span>Lần đầu mở sẽ có phần giới thiệu nhanh. Bạn có thể bỏ qua bất cứ lúc nào.</span></li>
     </ol>
@@ -280,12 +290,12 @@ footer .wrap{display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify
 <div class="wrap">
   <section id="tai-ve">
     <h2>Tải về</h2>
-    <p class="sub">Yêu cầu Android 6.0 trở lên. Bản mới sẽ được app tự thông báo.</p>
+    <p class="sub">Yêu cầu Android 7.0 trở lên — bản 1.4.0 nâng mức tối thiểu để dùng được chức năng nhắc luyện tập. Bản mới sẽ được app tự thông báo.</p>
     <div class="card">
       <table>
         <tr><th>Phiên bản</th><th>Ngày phát hành</th><th>Tệp</th></tr>
         <tr>
-          <td id="t-ver">1.3.0</td>
+          <td id="t-ver">1.4.0</td>
           <td id="t-date">—</td>
           <td><a id="t-link" href="https://github.com/mittohoa/rubik-resolved/releases/latest">Tải APK từ GitHub Releases</a></td>
         </tr>
@@ -315,9 +325,20 @@ footer .wrap{display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify
          thay vì chụp lại cả sáu.</p></details>
 
     <details><summary>Khối của tôi có bộ màu khác thì sao?</summary>
-      <p>Được. App đọc màu tương đối theo chính sáu ô tâm của khối bạn chụp, nên khối hệ Nhật,
-         khối stickerless, khối pastel hay khối đã bạc màu đều dùng được. Trong phần "Mẫu khối"
+      <p>Được. App đọc màu tương đối theo chính khối bạn chụp chứ không so với một bảng màu cố định,
+         nên khối hệ Nhật, khối stickerless, khối pastel hay khối đã bạc màu đều dùng được. Trong phần "Mẫu khối"
          còn có thể chụp một tấm để app gợi ý mẫu giống nhất, hoặc dùng luôn đúng màu thật của khối.</p></details>
+
+    <details><summary>Khối tôi dán logo to ở viên tâm thì có đọc được không?</summary>
+      <p>Được, kể cả khi nhãn che gần kín ô tâm. Từ bản 1.4.0, app gom màu 48 ô ngoài rìa
+         thành sáu nhóm trước, rồi mới ghép nhóm với mặt — nên màu của một mặt được suy ra
+         từ tám ô còn lại chứ không phụ thuộc vào ô tâm. Trước đây chỉ cần một ô tâm đọc lệch
+         là sai cả khối.</p></details>
+
+    <details><summary>App có nhắc tôi luyện tập không?</summary>
+      <p>Có, nếu bạn tự bật trong Cài đặt → Nhắc luyện tập và chọn giờ. App chỉ xin quyền
+         thông báo đúng lúc bạn bấm bật, không hỏi trước. Không bật thì app không đặt lịch
+         và không xin quyền gì cả.</p></details>
 
     <details><summary>Lời giải dài quá, có cách nào ngắn hơn không?</summary>
       <p>Bộ giải dùng phương pháp tầng lớp dành cho người mới nên dài hơn mức tối ưu —
@@ -397,7 +418,13 @@ footer .wrap{display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify
         <tr><td>Máy ảnh</td><td>Chụp sáu mặt khối để đọc màu. Chỉ hỏi khi bạn bấm nút chụp, và từ chối vẫn dùng được app bằng cách nhập màu tay.</td></tr>
         <tr><td>Internet</td><td>Kiểm tra và tải bản cập nhật. Nếu bạn tự bật đồng bộ thì còn dùng để gửi nhận dữ liệu với đúng dự án Supabase mà bạn đã kết nối.</td></tr>
         <tr><td>Cài đặt ứng dụng</td><td>Mở trình cài đặt của hệ thống với bản cập nhật vừa tải. Android không cho cài ngầm — bạn vẫn là người bấm đồng ý.</td></tr>
+        <tr><td>Thông báo</td><td>Nhắc luyện tập hằng ngày. Chỉ hỏi đúng lúc bạn tự bật chức năng này trong Cài đặt; không bật thì app không xin và không đặt lịch nhắc.</td></tr>
+        <tr><td>Chạy sau khi khởi động máy</td><td>Đặt lại lịch nhắc sau khi bạn khởi động lại điện thoại. Không có quyền này thì khởi động lại một lần là lời nhắc im luôn. App không chạy nền để làm gì khác.</td></tr>
       </table>
+      <p style="margin:14px 0 0; color:var(--muted); font-size:13.5px">
+        RubikLab cố tình <b>không</b> xin quyền báo thức chính xác: lời nhắc lệch vài phút
+        không ảnh hưởng gì, mà quyền đó buộc bạn phải vào tận phần cài đặt hệ thống để cấp.
+      </p>
     </div>
   </section>
 </div>

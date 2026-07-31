@@ -1,9 +1,9 @@
 {
-  "versionCode": 4,
-  "versionName": "1.3.0",
+  "versionCode": 5,
+  "versionName": "1.4.0",
   "releasedAt": "2026-07-31",
-  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.3.0/RubikLab-1.3.0.apk",
-  "sizeBytes": 27600947,
-  "sha256": "615baecf101dc8011d465740e016368872fd7784b99b8eeb33de22c90d4579b2",
-  "notes": "Thêm đồng bộ nhiều thiết bị qua Supabase — hoàn toàn tuỳ chọn, không bật thì app chạy ngoại tuyến y như trước. Kết nối bằng cách nhập tay, dán, đọc tệp hoặc quét mã QR có mã PIN. Cách hợp nhất dữ liệu được thiết kế để không bao giờ mất lần bấm giờ nào."
+  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.4.0/RubikLab-1.4.0.apk",
+  "sizeBytes": 28575378,
+  "sha256": "96b64f49389ea3dca875200fb9297958176c2bce476f8d542113b130a6e26c27",
+  "notes": "Nhận diện ảnh chụp chính xác hơn hẳn: một ô tâm đọc sai không còn làm hỏng cả khối, và nhãn dán giữa ô tâm cũng không sao. Thêm lưu lại khối đã nhập, đọc lời giải thành tiếng, huấn luyện viên chỉ ra bước bạn đang mất nhiều thời gian nhất, và nhắc luyện tập hằng ngày."
 }
