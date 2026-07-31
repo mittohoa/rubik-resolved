@@ -1,9 +1,9 @@
 {
-  "versionCode": 2,
-  "versionName": "1.1.0",
+  "versionCode": 3,
+  "versionName": "1.2.0",
   "releasedAt": "2026-07-31",
-  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.1.0/RubikLab-1.1.0.apk",
-  "sizeBytes": 25090072,
-  "sha256": "f6054a1ee5af5fa126f2ca0053cb877e2adb4b77b0d87b44eb3c283be38bca03",
-  "notes": "App tự tìm mặt khối trong ảnh nên đọc màu chính xác hơn hẳn khi khối đặt lệch hoặc hơi nghiêng. Logo dán giữa ô tâm không còn làm sai màu cả mặt. Thêm bài học tháo lắp, vệ sinh và bôi trơn. Gỡ các quyền thừa: app không còn xin quyền micro."
+  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.2.0/RubikLab-1.2.0.apk",
+  "sizeBytes": 25353906,
+  "sha256": "79df27b70c59c729107b285c0e289c6e0cbd2b86a57cf9ed90ab492b2ef283a4",
+  "notes": "Khung ngắm tự bám khối và tự chụp khi giữ yên. Luyện riêng từng bước với thế do app dựng sẵn. Bấm giờ đúng luật thi đấu có 15 giây quan sát, phạt +2 và DNF. Khi giải trên khối ảo app tự tách thời gian từng giai đoạn. Thêm sao lưu, khôi phục và thẻ ghi nhớ công thức."
 }
