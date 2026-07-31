@@ -1,9 +1,9 @@
 {
-  "versionCode": 5,
-  "versionName": "1.4.0",
+  "versionCode": 6,
+  "versionName": "1.4.1",
   "releasedAt": "2026-07-31",
-  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.4.0/RubikLab-1.4.0.apk",
-  "sizeBytes": 28575378,
-  "sha256": "96b64f49389ea3dca875200fb9297958176c2bce476f8d542113b130a6e26c27",
-  "notes": "Nhận diện ảnh chụp chính xác hơn hẳn: một ô tâm đọc sai không còn làm hỏng cả khối, và nhãn dán giữa ô tâm cũng không sao. Thêm lưu lại khối đã nhập, đọc lời giải thành tiếng, huấn luyện viên chỉ ra bước bạn đang mất nhiều thời gian nhất, và nhắc luyện tập hằng ngày."
+  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.4.1/RubikLab-1.4.1.apk",
+  "sizeBytes": 28598786,
+  "sha256": "484e8e8c9264be532d98361f46e7ffaf765bff15488621c74c5b7183bdf9688e",
+  "notes": "Đọc được khối phủ carbon — loại mà mỗi ô có miếng carbon đen ở giữa và màu chỉ còn ở viền quanh mép. Trước đây app không nhận ra nổi một mặt nào của khối loại này; nay nhận đủ sáu mặt. Khối dán màu phẳng cũng dò chính xác hơn."
 }
