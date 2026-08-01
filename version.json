@@ -1,9 +1,9 @@
 {
-  "versionCode": 12,
-  "versionName": "1.7.2",
+  "versionCode": 13,
+  "versionName": "1.7.3",
   "releasedAt": "2026-08-01",
-  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.7.2/RubikLab-1.7.2.apk",
-  "sizeBytes": 28833066,
-  "sha256": "1122a2e9d4d5a42233d9e21610d8a63a96266eb21e1858fadea425fb5837f24b",
-  "notes": "Vá hai lỗ hổng đồng bộ: kiểu giải (một tay, nhắm mắt, bằng chân) và kết quả ba trò rèn phản xạ trước đây không được gửi lên, nên máy thứ hai không thấy. Ai đang dùng đồng bộ hãy chạy lại tệp SQL để thêm hai cột mới."
+  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.7.3/RubikLab-1.7.3.apk",
+  "sizeBytes": 28836078,
+  "sha256": "dc8eb8bcdacfa380d1c2eb6c21fe32994d0ca5ca41c4d91843dc63f3cef0f3f9",
+  "notes": "Báo lỗi viên góc vặn lệch giờ nói rõ viên nào, ô màu nào, phải quay về hướng nào — và cách cắm lại an toàn. Trước đây chỉ báo chung chung nên đọc xong vẫn không biết làm gì."
 }
