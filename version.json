@@ -1,9 +1,9 @@
 {
-  "versionCode": 10,
-  "versionName": "1.7.0",
+  "versionCode": 11,
+  "versionName": "1.7.1",
   "releasedAt": "2026-08-01",
-  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.7.0/RubikLab-1.7.0.apk",
-  "sizeBytes": 28800314,
-  "sha256": "4b0d506b615fc68486d37f0342305a0f65e047acdde7d2a5fd719bb02a208943",
-  "notes": "Bấm giờ tách riêng theo kiểu giải: hai tay, một tay, nhắm mắt, bằng chân — mỗi kiểu một bảng kỷ lục riêng. Thêm màn hình Thống kê với đường diễn biến thời gian, phân bố, và bảng thời gian từng giai đoạn."
+  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.7.1/RubikLab-1.7.1.apk",
+  "sizeBytes": 28831334,
+  "sha256": "237d119a4733a85d4ac6d5e0fdc71e8c32e75b1c39f7ab4e4855b4df97edb9c8",
+  "notes": "Chia sẻ thành tích thành ảnh: một tấm thẻ có kỷ lục, ao5, ao12, số lượt giải và chuỗi ngày, gửi thẳng ra ứng dụng nhắn tin hay mạng xã hội."
 }
