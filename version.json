@@ -1,9 +1,9 @@
 {
-  "versionCode": 13,
-  "versionName": "1.7.3",
-  "releasedAt": "2026-08-01",
-  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.7.3/RubikLab-1.7.3.apk",
-  "sizeBytes": 28836078,
-  "sha256": "dc8eb8bcdacfa380d1c2eb6c21fe32994d0ca5ca41c4d91843dc63f3cef0f3f9",
-  "notes": "Báo lỗi viên góc vặn lệch giờ nói rõ viên nào, ô màu nào, phải quay về hướng nào — và cách cắm lại an toàn. Trước đây chỉ báo chung chung nên đọc xong vẫn không biết làm gì."
+  "versionCode": 14,
+  "versionName": "1.7.4",
+  "releasedAt": "2026-08-02",
+  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.7.4/RubikLab-1.7.4.apk",
+  "sizeBytes": 28867842,
+  "sha256": "eaafd87f3ef640cc26b8c7c78089da04b3e8aede081a585f32e31b64bc5bcb13",
+  "notes": "Thêm tuỳ chọn giúp cải thiện nhận diện ảnh: bật thì app giữ lại ảnh vừa chụp cùng kết quả đọc và phần bạn sửa tay, để đối chiếu xem nó sai ở đâu. Mặc định tắt, dữ liệu nằm nguyên trên máy, xoá được bất cứ lúc nào."
 }
