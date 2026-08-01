@@ -1,9 +1,9 @@
 {
-  "versionCode": 9,
-  "versionName": "1.6.1",
+  "versionCode": 10,
+  "versionName": "1.7.0",
   "releasedAt": "2026-08-01",
-  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.6.1/RubikLab-1.6.1.apk",
-  "sizeBytes": 28764482,
-  "sha256": "fec1cb6d34d10f694aba72dbbe727a3baccff7ca1a62066aa0ed4fa81e1f7819",
-  "notes": "Thư viện thế đẹp tăng từ 8 lên 18 thế, chia ba nhóm theo độ dài. Thêm bộ ba rắn Python — Mamba đen — Mamba lục, Tetris, Cộng trừ, Xoắn ốc, Sáu hai một, Đỉnh đổi chỗ và Chân gà xoắn."
+  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.7.0/RubikLab-1.7.0.apk",
+  "sizeBytes": 28800314,
+  "sha256": "4b0d506b615fc68486d37f0342305a0f65e047acdde7d2a5fd719bb02a208943",
+  "notes": "Bấm giờ tách riêng theo kiểu giải: hai tay, một tay, nhắm mắt, bằng chân — mỗi kiểu một bảng kỷ lục riêng. Thêm màn hình Thống kê với đường diễn biến thời gian, phân bố, và bảng thời gian từng giai đoạn."
 }
