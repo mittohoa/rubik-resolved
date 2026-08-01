@@ -1,9 +1,9 @@
 {
-  "versionCode": 7,
-  "versionName": "1.5.0",
+  "versionCode": 8,
+  "versionName": "1.6.0",
   "releasedAt": "2026-08-01",
-  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.5.0/RubikLab-1.5.0.apk",
-  "sizeBytes": 28741058,
-  "sha256": "bde8c7e569229bfa21edc5c014f72b67b65d1bf93a61b69155c280b08c9067d1",
-  "notes": "Nhập tay nhanh hơn hẳn: con trỏ tự nhảy ô nên nhập một mặt chỉ cần bấm màu theo thứ tự đọc. Thêm tuỳ chọn lời giải ngắn 23 nước thay vì 126, khu thế đẹp để xoay ra khoe, và ba trò nhỏ rèn mắt, rèn trí nhớ công thức, rèn khả năng hình dung khối."
+  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.6.0/RubikLab-1.6.0.apk",
+  "sizeBytes": 28755118,
+  "sha256": "7e57a3cc5ca395e2de31185141ea8c6dfd092b5da0733c387a2542b843920835",
+  "notes": "Thêm hai cách xoay khối ảo cho ai thấy vuốt khó: dãy nút ký hiệu ngay dưới khối, và chạm một ô thì hiện bốn mũi tên có ghi sẵn tên nước đi. Thêm công tắc đảo chiều vuốt trong Cài đặt."
 }

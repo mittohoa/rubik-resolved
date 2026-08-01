@@ -158,7 +158,7 @@ footer .wrap{display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify
 <div class="wrap">
   <section class="hero" style="padding-top:66px">
     <div>
-      <span class="badge" id="ver-badge">Bản 1.5.0 · APK cho Android</span>
+      <span class="badge" id="ver-badge">Bản 1.6.0 · APK cho Android</span>
       <h1>Học, giải và <em>luyện Rubik 3×3</em></h1>
       <p class="lede">
         Mười bài học có minh hoạ 3D, chụp khối thật để nhận lời giải từng nước,
@@ -257,7 +257,9 @@ footer .wrap{display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify
         <li>Bỏ qua nhãn dán giữa ô tâm và đốm sáng phản chiếu khi đọc màu</li>
         <li>Đánh dấu ô chưa chắc và cho chụp lại riêng một mặt</li>
         <li>Báo lỗi chỉ rõ vị trí viên sai kèm đề xuất sửa</li>
-        <li>Khối ảo vuốt xoay được, có gợi ý nước tiếp theo và hoàn tác</li>
+        <li>Khối ảo xoay được ba cách: vuốt, chạm ô chọn mũi tên, hoặc bấm nút ký hiệu</li>
+        <li>Đảo chiều vuốt được nếu bạn thấy ngược so với khối thật</li>
+        <li>Gợi ý nước tiếp theo và hoàn tác trên khối ảo</li>
         <li>Luyện riêng từng bước với thế do app dựng sẵn</li>
         <li>Tự tách thời gian từng giai đoạn khi giải trên khối ảo</li>
         <li>Chỉ ra bước đang ngốn nhiều thời gian nhất và mở thẳng bài tập cho bước đó</li>
@@ -280,7 +282,7 @@ footer .wrap{display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify
     <p class="sub">RubikLab đang phát hành dưới dạng APK để chạy thử và beta, chưa lên Google Play.</p>
     <ol class="steps">
       <li><b>Tải tệp APK</b><span>Bấm nút tải ở đầu trang. Tệp khoảng 27 MB.</span></li>
-      <li><b>Mở tệp vừa tải</b><span>Vào phần Tải xuống của máy rồi chạm vào tệp <code>RubikLab-1.5.0.apk</code>.</span></li>
+      <li><b>Mở tệp vừa tải</b><span>Vào phần Tải xuống của máy rồi chạm vào tệp <code>RubikLab-1.6.0.apk</code>.</span></li>
       <li><b>Cho phép cài từ nguồn này</b><span>Android sẽ hỏi một lần. Bật công tắc "Cho phép từ nguồn này" rồi quay lại.</span></li>
       <li><b>Mở app và xoay thôi</b><span>Lần đầu mở sẽ có phần giới thiệu nhanh. Bạn có thể bỏ qua bất cứ lúc nào.</span></li>
     </ol>
@@ -300,7 +302,7 @@ footer .wrap{display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify
       <table>
         <tr><th>Phiên bản</th><th>Ngày phát hành</th><th>Tệp</th></tr>
         <tr>
-          <td id="t-ver">1.5.0</td>
+          <td id="t-ver">1.6.0</td>
           <td id="t-date">—</td>
           <td><a id="t-link" href="https://github.com/mittohoa/rubik-resolved/releases/latest">Tải APK từ GitHub Releases</a></td>
         </tr>
@@ -355,6 +357,13 @@ footer .wrap{display:flex; gap:16px; flex-wrap:wrap; align-items:center; justify
       <p>Bộ giải dùng phương pháp tầng lớp dành cho người mới nên dài hơn mức tối ưu —
          đổi lại mỗi nước đều nằm trong một công thức mà bạn học được và nhớ được.
          Khi đã quen, phần bài học có gợi ý lộ trình học tiếp F2L, OLL và PLL.</p></details>
+
+    <details><summary>Vuốt khó quá, có cách xoay khối nào khác không?</summary>
+      <p>Có ba cách, dùng cách nào cũng được. <b>Vuốt</b> thẳng trên mặt khối là nhanh nhất khi
+         đã quen. <b>Chạm một ô</b> thì hiện bốn mũi tên quanh ô đó, mỗi mũi tên ghi sẵn tên
+         nước đi — chạm mũi tên là xoay, không cần khéo tay và thấy trước lớp nào sắp xoay.
+         Hoặc bấm thẳng <b>dãy nút ký hiệu</b> ngay dưới khối. Nếu bạn thấy vuốt ra chiều ngược
+         với khối thật thì bật "Đảo chiều vuốt" trong Cài đặt.</p></details>
 
     <details><summary>Vì sao vuốt trên mặt trên lại không xoay mặt trên?</summary>
       <p>Vuốt trên một mặt sẽ đẩy <b>lớp vuông góc</b> chứa ô bạn vừa chạm, giống hệt khi bạn
