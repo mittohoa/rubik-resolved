@@ -1,9 +1,9 @@
 {
-  "versionCode": 11,
-  "versionName": "1.7.1",
+  "versionCode": 12,
+  "versionName": "1.7.2",
   "releasedAt": "2026-08-01",
-  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.7.1/RubikLab-1.7.1.apk",
-  "sizeBytes": 28831334,
-  "sha256": "237d119a4733a85d4ac6d5e0fdc71e8c32e75b1c39f7ab4e4855b4df97edb9c8",
-  "notes": "Chia sẻ thành tích thành ảnh: một tấm thẻ có kỷ lục, ao5, ao12, số lượt giải và chuỗi ngày, gửi thẳng ra ứng dụng nhắn tin hay mạng xã hội."
+  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.7.2/RubikLab-1.7.2.apk",
+  "sizeBytes": 28833066,
+  "sha256": "1122a2e9d4d5a42233d9e21610d8a63a96266eb21e1858fadea425fb5837f24b",
+  "notes": "Vá hai lỗ hổng đồng bộ: kiểu giải (một tay, nhắm mắt, bằng chân) và kết quả ba trò rèn phản xạ trước đây không được gửi lên, nên máy thứ hai không thấy. Ai đang dùng đồng bộ hãy chạy lại tệp SQL để thêm hai cột mới."
 }
