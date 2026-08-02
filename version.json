@@ -1,9 +1,9 @@
 {
-  "versionCode": 16,
-  "versionName": "1.8.0",
+  "versionCode": 17,
+  "versionName": "1.9.0",
   "releasedAt": "2026-08-02",
-  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.8.0/RubikLab-1.8.0.apk",
-  "sizeBytes": 28948254,
-  "sha256": "bcef865f07b8862d044818237a55f213aa8dfc91147b3380b327c373133ecad9",
-  "notes": "Thêm F2L — ghép viên góc với viên cạnh thành một cặp rồi thả cả cặp xuống, thay vì xong hết tầng một rồi mới đi tìm cạnh. Có 41 thế kèm khối 3D xem tại chỗ, và một bước luyện riêng trên khối ảo có gợi ý chỉ ra nên thả cặp nào."
+  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.9.0/RubikLab-1.9.0.apk",
+  "sizeBytes": 29083674,
+  "sha256": "4bcf529356f4449330fad722a87f93b4a4586346447a762c3671ed1eb9ca885d",
+  "notes": "Thêm tầng cuối: 57 thế OLL lật cả mặt trên về một màu, và 21 thế PLL đưa từng viên về đúng ô. Mỗi thế có khối 3D xem tại chỗ, kèm hai bước luyện riêng trên khối ảo. Trọn bộ CFOP giờ đã đủ: chữ thập, F2L, OLL, PLL."
 }
