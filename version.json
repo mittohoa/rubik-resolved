@@ -1,9 +1,9 @@
 {
-  "versionCode": 17,
-  "versionName": "1.9.0",
+  "versionCode": 18,
+  "versionName": "1.9.1",
   "releasedAt": "2026-08-02",
-  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.9.0/RubikLab-1.9.0.apk",
-  "sizeBytes": 29083674,
-  "sha256": "4bcf529356f4449330fad722a87f93b4a4586346447a762c3671ed1eb9ca885d",
-  "notes": "Thêm tầng cuối: 57 thế OLL lật cả mặt trên về một màu, và 21 thế PLL đưa từng viên về đúng ô. Mỗi thế có khối 3D xem tại chỗ, kèm hai bước luyện riêng trên khối ảo. Trọn bộ CFOP giờ đã đủ: chữ thập, F2L, OLL, PLL."
+  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.9.1/RubikLab-1.9.1.apk",
+  "sizeBytes": 29091594,
+  "sha256": "2ec093a7fd55d9ddb5bd8e8c7321048db70922f4617944573e685ae8d74e9351",
+  "notes": "Thêm trò Nhận diện thế CFOP vào phần Rèn phản xạ: nhìn khối rồi chọn đúng chuỗi giải nó, lấy từ cả 119 thế F2L, OLL và PLL. Đáp án nhiễu luôn cùng một bước để không đoán được bằng độ dài chuỗi."
 }
