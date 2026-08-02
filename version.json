@@ -1,9 +1,9 @@
 {
-  "versionCode": 15,
-  "versionName": "1.7.5",
+  "versionCode": 16,
+  "versionName": "1.8.0",
   "releasedAt": "2026-08-02",
-  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.7.5/RubikLab-1.7.5.apk",
-  "sizeBytes": 28883866,
-  "sha256": "10e6cfd791fa16eb0597fabc1d13e247f75a1d99341efeb1ffc24de1bbc96db1",
-  "notes": "Đề xáo nay sinh theo chuẩn WCA: bốc đều một trạng thái bất kỳ rồi giải ngược ra, thay vì bốc bừa hai mươi nước. Áp dụng cho đồng hồ WCA, nút Xáo ở màn Chơi thử và đề xáo của ngày."
+  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.8.0/RubikLab-1.8.0.apk",
+  "sizeBytes": 28948254,
+  "sha256": "bcef865f07b8862d044818237a55f213aa8dfc91147b3380b327c373133ecad9",
+  "notes": "Thêm F2L — ghép viên góc với viên cạnh thành một cặp rồi thả cả cặp xuống, thay vì xong hết tầng một rồi mới đi tìm cạnh. Có 41 thế kèm khối 3D xem tại chỗ, và một bước luyện riêng trên khối ảo có gợi ý chỉ ra nên thả cặp nào."
 }
