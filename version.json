@@ -1,9 +1,9 @@
 {
-  "versionCode": 18,
-  "versionName": "1.9.1",
+  "versionCode": 19,
+  "versionName": "1.9.2",
   "releasedAt": "2026-08-02",
-  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.9.1/RubikLab-1.9.1.apk",
-  "sizeBytes": 29091594,
-  "sha256": "2ec093a7fd55d9ddb5bd8e8c7321048db70922f4617944573e685ae8d74e9351",
-  "notes": "Thêm trò Nhận diện thế CFOP vào phần Rèn phản xạ: nhìn khối rồi chọn đúng chuỗi giải nó, lấy từ cả 119 thế F2L, OLL và PLL. Đáp án nhiễu luôn cùng một bước để không đoán được bằng độ dài chuỗi."
+  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.9.2/RubikLab-1.9.2.apk",
+  "sizeBytes": 29094094,
+  "sha256": "f7961901973614cc8123016c6b4f63bfd763044b1fac1be71abc96e502b5d339",
+  "notes": "Sửa hai lỗ hổng ở đường chụp ảnh, đo trên dữ liệu quét thật: với khối carbon thì tự chụp trước đây không bao giờ nổ nên mất hẳn lưới kiểm tra khung hình, và chụp xong lại chụp tiếp ngay khi tay chưa kịp xoay khối. Cửa tự chụp mới chặn đúng cả hai tấm ảnh cho ra màu sai."
 }
