@@ -1,9 +1,9 @@
 {
-  "versionCode": 14,
-  "versionName": "1.7.4",
+  "versionCode": 15,
+  "versionName": "1.7.5",
   "releasedAt": "2026-08-02",
-  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.7.4/RubikLab-1.7.4.apk",
-  "sizeBytes": 28867842,
-  "sha256": "eaafd87f3ef640cc26b8c7c78089da04b3e8aede081a585f32e31b64bc5bcb13",
-  "notes": "Thêm tuỳ chọn giúp cải thiện nhận diện ảnh: bật thì app giữ lại ảnh vừa chụp cùng kết quả đọc và phần bạn sửa tay, để đối chiếu xem nó sai ở đâu. Mặc định tắt, dữ liệu nằm nguyên trên máy, xoá được bất cứ lúc nào."
+  "apkUrl": "https://github.com/mittohoa/rubik-resolved/releases/download/v1.7.5/RubikLab-1.7.5.apk",
+  "sizeBytes": 28883866,
+  "sha256": "10e6cfd791fa16eb0597fabc1d13e247f75a1d99341efeb1ffc24de1bbc96db1",
+  "notes": "Đề xáo nay sinh theo chuẩn WCA: bốc đều một trạng thái bất kỳ rồi giải ngược ra, thay vì bốc bừa hai mươi nước. Áp dụng cho đồng hồ WCA, nút Xáo ở màn Chơi thử và đề xáo của ngày."
 }
