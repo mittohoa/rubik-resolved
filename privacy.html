@@ -1,0 +1,140 @@
+<!doctype html>
+<html lang="vi">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Chính sách quyền riêng tư — RubikLab</title>
+<meta name="description" content="RubikLab giữ gì của bạn, gửi đi đâu, và bạn xoá bằng cách nào.">
+<meta name="theme-color" content="#0E1218">
+<link rel="icon" href="assets/icon.png">
+<link rel="stylesheet" href="page.css">
+</head>
+<body>
+
+<div class="aurora"><span></span><span></span></div>
+
+<header>
+  <div class="wrap">
+    <a class="brand" href="index.html"><img src="assets/icon.png" alt="Biểu tượng RubikLab"> RUBIKLAB</a>
+    <nav>
+      <a href="index.html">Trang chủ</a>
+      <a href="xoa-tai-khoan.html">Xoá tài khoản</a>
+    </nav>
+  </div>
+</header>
+
+<main class="wrap">
+
+  <h1>Chính sách quyền riêng tư</h1>
+  <p class="stamp">Cập nhật lần cuối: 15/09/2026 · áp dụng cho RubikLab trên Android</p>
+
+  <div class="lede-box">
+    <p>Tóm tắt trong một câu: mặc định RubikLab không gửi gì của bạn đi đâu cả.
+       Phần đồng bộ nhiều thiết bị là tuỳ chọn — bạn phải tự bật và tự tạo tài
+       khoản thì mới có dữ liệu rời khỏi máy.</p>
+  </div>
+
+  <h2>Những gì ở lại trên máy bạn</h2>
+  <ul class="dash">
+    <li>Tiến độ bài học, thử thách hằng ngày và chuỗi ngày luyện.</li>
+    <li>Lịch sử bấm giờ: thời gian, công thức xáo, ghi chú phạt, chia chặng.</li>
+    <li>Khối đã lưu, bảng màu, và các lựa chọn trong phần Cài đặt.</li>
+    <li>Ảnh sáu mặt khối lúc chụp để nhận màu. Ảnh được đọc ngay trên máy rồi bỏ
+        đi — không gửi đi đâu, không lưu vào thư viện ảnh của bạn.</li>
+  </ul>
+
+  <h2>Máy ảnh</h2>
+  <ul class="dash">
+    <li>App chỉ xin quyền máy ảnh đúng lúc bạn mở phần chụp khối hoặc quét mã QR
+        cấu hình.</li>
+    <li>App không thu âm. Quyền micro đã bị gỡ hẳn khỏi bản dựng.</li>
+    <li>Ảnh chụp không được tải lên máy chủ nào, kể cả khi bạn đã bật đồng bộ.</li>
+  </ul>
+
+  <h2>Nếu bạn bật đồng bộ và tạo tài khoản</h2>
+  <p>Đây là phần duy nhất có dữ liệu rời khỏi máy bạn, và nó tắt sẵn. Bật lên thì
+     những thứ sau được gửi lên máy chủ:</p>
+  <div class="card" style="margin-top:14px">
+    <table>
+      <tr><th>Dữ liệu</th><th>Để làm gì</th></tr>
+      <tr><td>Địa chỉ email</td><td>Định danh tài khoản và đặt lại mật khẩu</td></tr>
+      <tr><td>Mật khẩu</td><td>Do Supabase quản lý, lưu dưới dạng băm — app không bao giờ thấy mật khẩu gốc</td></tr>
+      <tr><td>Tên hiển thị</td><td>Không bắt buộc, chỉ để hiện trong app</td></tr>
+      <tr><td>Lịch sử bấm giờ và tiến độ</td><td>Để các máy của bạn thấy chung một bộ dữ liệu</td></tr>
+      <tr><td>Tên thiết bị</td><td>Kèm mỗi lần bấm giờ, để bạn biết lần đó bấm trên máy nào</td></tr>
+    </table>
+  </div>
+  <p>Toàn bộ đường truyền là HTTPS. Máy chủ chặn ở mức từng dòng dữ liệu theo tài
+     khoản, nên không ai đọc được dữ liệu của người khác.</p>
+
+  <h2>Dữ liệu được gửi tới đâu</h2>
+  <p>Tuỳ bạn cài app từ đâu:</p>
+  <ul class="dash">
+    <li><b>Bản tải từ Google Play</b> — dữ liệu đồng bộ nằm trên dự án
+        <a href="https://supabase.com" rel="noopener">Supabase</a> do người phát
+        triển RubikLab quản lý, đặt tại hạ tầng của Supabase.</li>
+    <li><b>Bản tải thẳng tệp APK từ trang này</b> — bạn có thể tự kết nối một dự
+        án Supabase <b>của riêng bạn</b> trong phần Cài đặt. Khi đó dữ liệu đi
+        thẳng tới dự án đó, nơi bạn sở hữu và kiểm soát hoàn toàn.</li>
+  </ul>
+
+  <h2>Những gì app không làm</h2>
+  <ul class="plain">
+    <li>Không có quảng cáo.</li>
+    <li>Không có công cụ đo đạc hay theo dõi hành vi của bên thứ ba.</li>
+    <li>Không bán, không chia sẻ dữ liệu của bạn cho ai.</li>
+    <li>Không đọc danh bạ, vị trí, thư viện ảnh hay tệp trên máy.</li>
+  </ul>
+
+  <h2>Chẩn đoán nhận màu (mặc định tắt)</h2>
+  <ul class="dash">
+    <li>Có một tuỳ chọn trong Cài đặt để giữ lại ảnh và kết quả đọc màu của mỗi
+        lần quét, dùng khi bạn muốn báo lỗi nhận sai màu.</li>
+    <li>Bật hay không là do bạn. Dữ liệu này nằm trong thư mục riêng của app trên
+        máy bạn, không tự gửi đi đâu — bạn chỉ chia sẻ nó khi tự tay gửi.</li>
+    <li>Xoá bất cứ lúc nào bằng nút ngay dưới tuỳ chọn đó.</li>
+  </ul>
+
+  <h2>Quyền của bạn</h2>
+  <ul class="dash">
+    <li><b>Xoá tài khoản và toàn bộ dữ liệu trên máy chủ:</b> mở Tài khoản trong
+        app, kéo xuống cuối, bấm "Xoá tài khoản của tôi". Đã gỡ app rồi thì dùng
+        <a href="xoa-tai-khoan.html">trang xoá tài khoản</a>. Xoá là xoá thật và
+        không khôi phục được.</li>
+    <li><b>Xoá dữ liệu trên máy:</b> gỡ app, hoặc dùng phần xoá trong Cài đặt.</li>
+    <li><b>Lấy bản sao dữ liệu của mình:</b> Cài đặt, rồi Xuất tệp — ra một tệp
+        JSON đọc được.</li>
+  </ul>
+
+  <h2>Dữ liệu được giữ bao lâu</h2>
+  <ul class="dash">
+    <li>Trên máy: cho tới khi bạn xoá hoặc gỡ app.</li>
+    <li>Trên máy chủ: cho tới khi bạn xoá tài khoản. Xoá tài khoản là các bản ghi
+        liên quan mất theo ngay lúc đó, không giữ lại bản sao nào.</li>
+  </ul>
+
+  <h2>Trẻ em</h2>
+  <p>App không nhắm tới trẻ dưới 13 tuổi và không cố ý thu thập dữ liệu của trẻ
+     dưới 13 tuổi. Phần đồng bộ cần địa chỉ email nên cần người lớn lập giúp.
+     Không bật đồng bộ thì app vẫn dùng được đầy đủ mà không cần khai bất cứ
+     thông tin cá nhân nào.</p>
+
+  <h2>Thay đổi chính sách</h2>
+  <p>Có thay đổi thì ngày ở đầu trang sẽ đổi theo, và bản trong app cũng đổi cùng
+     lúc. Bản trong app đọc được cả khi không có mạng: Cài đặt → Quyền riêng tư.</p>
+
+  <h2>Liên hệ</h2>
+  <p>Thắc mắc về dữ liệu của bạn, hoặc muốn yêu cầu xoá bằng đường khác:
+     <a href="mailto:mittohoa@gmail.com?subject=RubikLab%20-%20quy%E1%BB%81n%20ri%C3%AAng%20t%C6%B0">mittohoa@gmail.com</a></p>
+
+</main>
+
+<footer>
+  <div class="wrap">
+    <span>RubikLab · Luyện mỗi ngày, nhanh mỗi tuần · © 2026 mittohoa</span>
+    <span><a href="index.html">Trang chủ</a> · <a href="xoa-tai-khoan.html">Xoá tài khoản</a></span>
+  </div>
+</footer>
+
+</body>
+</html>
